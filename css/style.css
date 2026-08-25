@@ -369,7 +369,7 @@ a {
         width: 48px;
 
         border-radius: 999px;
-        background: url(/assets/memoji.png) no-repeat center / cover;
+        background: url(assets/memoji.png) no-repeat center / cover;
         transition: all .3s ease;
     }
 

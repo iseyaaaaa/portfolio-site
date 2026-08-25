@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iseya's Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google font inter -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Remixicon link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- Phospore Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">
+    <!-- Lenis -->
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.26/dist/lenis.css">
+    <script src="https://unpkg.com/lenis@1.3.26/dist/lenis.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="/assets/memoji.png">
+
+</head>
+
+<body class="main-body">
+    <!-- This is the main body -->
+
+    <!-- Dark Mode Toggle -->
+    <div class="dark-mode-toggle">
+        <button class="toggle-button">
+            <i class="ph ph-moon"></i>
+        </button>
+    </div>
+
+    <main id="swup" class="main-container">
+
+        <!-- --- Navigation --- -->
+        <div class="navigation-parent main-nav">
+            <a href="/index.html" class="nav-item">
+                <i class="ph ph-caret-left"></i>
+                <p>Go back</p>
+            </a>
+        </div>
+
+        <!-- contain all elements -->
+
+        <div class="content transition-fade">
+            <div class="introduction-container">
+                <div class="profile reveal">
+                    <h1>Hello!</h1>
+                </div>
+
+                <p class="reveal">
+                    I am Isaiah Joseph Tres Reyes, I am an aspiring UI/UX, Web, and Graphic Designer based in
+                    Manila, Philippines. I have 5 years experience in the industry, and I specialize in minimal yet
+                    impactful designs.
+                </p>
+                <p class="reveal">I am on <a href="https://x.com/iseyadoesdesign" target="_blank"
+                        rel="noopener noreferrer" class="socials">X</a>, <a href="https://github.com/iseyaaaaa"
+                        target="_blank" rel="noopener noreferrer" class="socials">Github</a>, and <a
+                        href="https://contra.com/iseyadesign/work?r=iseyadesign" target="_blank"
+                        rel="noopener noreferrer" class="socials">Contra</a></p>
+                        
+            </div>
+
+            <div class="recent-project reveal">
+                <div class="main-header header">
+                    <i class="ph ph-rocket-launch"></i>
+                    <p>Recent Work</p>
+                </div>
+
+                <div class="recent-project-area">
+
+                    <a href="/projects/hault.html" class="recent-project-link nav-item btn-glass">
+                      View project  
+                    </a>
+
+                    <div class="recent-project-banner"
+                        style="background: #F1F1F1 url('/assets/Hault\ cover.png') no-repeat center / cover;"></div>
+                </div>
+
+            </div>
+
+            <div class="work-container">
+                <div class="main-header header reveal">
+                    <i class="ph ph-briefcase"></i>
+                    <p>Projects</p>
+                </div>
+
+                <div class="list-container reveal">
+                    <!-- list -->
+
+                    <div class="list-card-hover">
+                        <a href="#" target="_blank" class="card">
+                            <div class="card-container">
+                                <!-- <i class="ph ph-link item-icon"></i> -->
+                                <i class="ph ph-caret-right item-icon"></i>
+                                <p>Lloyd's Financing Corp.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="list-card-hover">
+                        <a href="/projects/stillword.html" class="card">
+                            <div class="card-container">
+                                <i class="ph ph-caret-right item-icon"></i>
+                                <p>Stillword</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="list-card-hover">
+                        <a href="/projects/ubas.html" class="card">
+                            <div class="card-container">
+                                <i class="ph ph-caret-right item-icon"></i>
+                                <p>Ubas — Employee Management System</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- <div class="list-card-hover">
+                        <a href="#" class="card">
+                            <div class="card-container">
+                                <i class="ph ph-caret-right item-icon"></i>
+                                <p>The SIT Enterprise</p>
+                            </div>
+                        </a>
+                    </div> -->
+
+                    <div class="list-card-hover">
+                        <a href="/projects/hault.html" class="card last-card">
+                            <div class="card-container">
+                                <i class="ph ph-caret-right item-icon"></i>
+                                <!-- <i class="ph ph-lock item-icon"></i> -->
+                                <p>Hault — Lock your apps</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- JS script link -->
+    <script src="/js/script.js" defer></script>
+    <script src="https://unpkg.com/swup@4"></script>
+
+    <!-- --- Swup ---  -->
+    <script type="module">
+        import Swup from 'https://unpkg.com/swup@4?module';
+        window.swup = new Swup();
+    </script>
+
+</body>
+
+</html>

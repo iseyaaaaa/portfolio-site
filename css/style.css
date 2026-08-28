@@ -290,6 +290,8 @@ a {
     flex-direction: column;
     gap: 24px;
 
+    margin-top: 40px;
+
     p:first-child {
         color: var(--text-color);
         font-size: 40px;

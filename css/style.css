@@ -583,7 +583,7 @@ a {
     flex-direction: column;
 }
 
-/* --- Tablet Size ---  */
+/* --- Laptop ---  */
 
 @media (max-width: 1024px) {
     .main-body {
@@ -592,6 +592,14 @@ a {
 
     .howto-container {
         padding: 80px 40px;
+    }
+}
+
+/* --- Tablet ---  */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 60px;
     }
 }
 
@@ -604,5 +612,9 @@ a {
 
     .howto-container {
         padding: 80px 24px;
+    }
+
+    h1 {
+        font-size: 40px;
     }
 }

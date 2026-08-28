@@ -99,6 +99,10 @@ body {
     font-style: normal; */
 }
 
+h1 {
+    font-size: 100px;
+}
+
 /* -------------- Swup ------------------ */
 
 /* Define a transition duration during page visits */

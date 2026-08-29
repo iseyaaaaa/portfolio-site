@@ -607,7 +607,7 @@ a {
 
 /* --- Phone Size ---  */
 
-@media (max-width: 425px) {
+@media (max-width: 440px) {
     .main-body {
         padding: 80px 24px;
     }

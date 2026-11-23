@@ -389,31 +389,35 @@ a {
 
 .recent-project-area {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: end;
+    align-items: start;
 
     position: relative;
     transition: all .3s ease;
 
     overflow: hidden;
     border-radius: 32px;
+
+    border: 1px solid var(--border-color);
 }
 
 .recent-project-area:hover>.recent-project-banner {
     transform: scale(1.04);
-    filter: blur(4px);
+    /* filter: blur(4px); */
+    /* opacity: .24; */
 }
 
 .recent-project-link {
     position: absolute;
-
     z-index: 2;
+    margin: 40px;
 
     opacity: 0;
 }
 
 .recent-project-area:hover>.recent-project-link {
     opacity: 1;
+    transform: translateX(-8px);
 }
 
 .recent-project {

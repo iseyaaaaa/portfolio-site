@@ -159,6 +159,7 @@ html.is-animating .transition-fade {
 
         border-radius: 999px;
         background-color: var(--card-background-color);
+        backdrop-filter: blur(12px);
 
         transition: all .3s ease;
 

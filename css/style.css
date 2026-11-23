@@ -592,6 +592,17 @@ a {
 
 /* --- Laptop ---  */
 
+@media (max-width: 1470px) {
+     /* Macbook Air M2 */
+     .main-body {
+        padding: 80px 112px;
+    }
+
+    .project-body {
+        padding: 80px 80px;
+    }
+}
+
 @media (max-width: 1024px) {
     .main-body {
         padding: 80px 40px;
@@ -628,5 +639,10 @@ a {
     .recent-project-banner {
         background-size: contain;
         height: 200px;
+    }
+
+    .recent-project-area {
+        justify-content: center;
+        align-items: center;
     }
 }

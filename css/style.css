@@ -629,4 +629,10 @@ a {
         background-size: contain;
         height: 200px;
     }
+
+    .col1,
+    .col2,
+    .row1 {
+        max-height: 240px;
+    }
 }

@@ -593,8 +593,9 @@ a {
 /* --- Laptop ---  */
 
 @media (max-width: 1470px) {
-     /* Macbook Air M2 */
-     .main-body {
+
+    /* Macbook Air M2 */
+    .main-body {
         padding: 80px 112px;
     }
 
@@ -645,6 +646,8 @@ a {
     .col2,
     .row1 {
         max-height: 240px;
+    }
+
     .recent-project-area {
         justify-content: center;
         align-items: center;
